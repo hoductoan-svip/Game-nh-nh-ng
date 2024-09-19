@@ -68,9 +68,9 @@ const questions = [
         answer: "Genshin Impact"
     },
     {
-        question: "Câu hỏi 5: Chị N dấu tên (người quen của Toàn) có bao nhiêu nyc ?",
-        options: ["5", "10", "Nhiều quá không thống kê nổi"],
-        answer: "Nhiều quá không thống kê nổi"
+        question: "Câu hỏi 5: Ca sĩ nào sau đây là người mà Toàn yêu thích nhất ?",
+        options: ["Jack", "J97", "Trịnh TRần Phương Tuấn"],
+        answer: "Trịnh TRần Phương Tuấn"
     },
     {
         question: "Câu hỏi 6: Hãy đêm số ngôi sao (màu trắng đang rung rinh) mà Toàn dành tặng bạn ở trang này?",
@@ -83,7 +83,7 @@ const questions = [
         answer: "Hoi"
     },
     {
-        question: "Câu hỏi 8: Toàn có ghét chị N dấu tên không ( đáng lẽ không cho câu này đâu nhưng tại không xem tin nhắn nên phải thêm zô) ?",
+        question: "Câu hỏi 8: Toàn có ghét NYC (duy nhất) không ?",
         options: ["Ghét vai chuong", "Siêu siêu ghét", "Ghét ít lắm, bằng số ngôi sao phía sau thôi"],
         answer: "Ghét ít lắm, bằng số ngôi sao phía sau thôi"
     },
