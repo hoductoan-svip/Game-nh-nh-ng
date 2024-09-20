@@ -48,54 +48,54 @@ setInterval(function() {
 }, 100 / 6);
 const questions = [
     {
-        question: "Câu hỏi 1: Toàn biết đi xe đạp vào năm bao nhiêu tuổi ?",
-        options: ["6 tuổi", "7 tuổi", "Đến giờ vẫn chưa biết đi"],
-        answer: "7 tuổi"
+        question: "Câu hỏi 1: Tao tên thật là gì ???",
+        options: ["Thảo Vi", "Ngọc Thảo ", "nnvt"],
+        answer: "nnvt" 
     },
     {
-        question: "Câu hỏi 2: Tính đến năm 2024 Toàn có bao nhiêu người yêu cũ ?",
-        options: ["1", "10", "Không mảnh tình vắt vai :(("],
-        answer: "Không mảnh tình vắt vai :(("
+        question: "Câu hỏi 2: Tao thích nuôi j  ?",
+        options: ["mèo", "chó ", "ko biết"],
+        answer: "ko biết " 
     },
     {
-        question: "Câu hỏi 3: Nhân vật nào trong phim hoạt hình Doraemon mà Toàn thích nhất ?",
-        options: ["Conan", "Kid", "Heji"],
-        answer: "Kid"
+        question: "Câu hỏi 3: Tao có ghét nicu ko?",
+        options: ["có", "rất có ", "ghét điên"],
+        answer: "ghét điên" 
     },
     {
-        question: "Câu hỏi 4: Đâu là trò chơi mà Toàn thích chơi nhất ?",
-        options: ["PUBG", "Liên Quân Mobile", "Genshin Impact"],
-        answer: "Genshin Impact"
+        question: "Câu hỏi 4: Tao thích chơi game j?",
+        options: ["genshin", "lq", "pu"],
+        answer: "genshin" 
     },
     {
-        question: "Câu hỏi 5: Ca sĩ nào sau đây là người mà Toàn yêu thích nhất ?",
-        options: ["Jack", "J97", "Trịnh TRần Phương Tuấn"],
-        answer: "Trịnh TRần Phương Tuấn"
+        question: "Câu hỏi 5:Tao có tuyệt vời không",
+        options: ["có", "rất có", "chắc chắn là có"],
+        answer: "chắc chắn là có" 
     },
     {
-        question: "Câu hỏi 6: Hãy đêm số ngôi sao (màu trắng đang rung rinh) mà Toàn dành tặng bạn ở trang này?",
-        options: ["17092006 ngôi sao", "Hàng triệu ngôi sao", "Hàng tỉ ngôi sao"],
-        answer: "17092006 ngôi sao"
+        question: "Câu hỏi 6: Tao thích ….?",
+        options: ["ngủ", "đi chơi", "nằm"],
+        answer: "nằm" 
     },
     {
-        question: "Câu hỏi 7: Biệt danh của Toàn là gì ?",
-        options: ["Hoi", "Kinz", "Không có biệt danh"],
-        answer: "Hoi"
+        question: "Câu hỏi 7: Tao hướng gì",
+        options: ["ngoại", "lội", "linh tinh"],
+        answer: "lội" 
     },
     {
-        question: "Câu hỏi 8: Toàn có ghét NYC (duy nhất) không ?",
-        options: ["Ghét vai chuong", "Siêu siêu ghét", "Ghét ít lắm, bằng số ngôi sao phía sau thôi"],
-        answer: "Ghét ít lắm, bằng số ngôi sao phía sau thôi"
+        question: "Câu hỏi 8: Gu tao là… ?",
+        options: ["m8 6 múi ", "cute", "má lúm"],
+        answer: "má lúm" 
     },
     {
-        question: "Câu hỏi 9: Toàn có tuyệt vời không?",
-        options: ["Quá tuyệt vời là quá tuyệt vời", "Tuyệt chứ", "Còn phải nói"],
-        answer: "Còn phải nói"
+        question: "Câu hỏi 9: tao ấn tượng vs ai bởi cái j",
+        options: ["răng ", "mùi", "mắt"],
+        answer: "mùi" 
     },
     {
-        question: "Câu hỏi 10: Toàn có đẹp zai không?",
-        options: ["Chắc chắn rồi", "Không thể nói không", "Chắc chắn là có"],
-        answer: "Không thể nói không"
+        question: "Câu hỏi 10: m là ai ?",
+        options: ["đoán xem ", "bạn", "mẹ m "],
+        answer: "đoán xem" 
     },
 ];
 
@@ -119,9 +119,9 @@ function selectOption(option) {
     const question = questions[currentQuestionIndex];
     if (option === question.answer) {
         score += 10; // Tăng điểm cho mỗi câu đúng (50 điểm cho mỗi câu)
-        alert("Đúng nhé!");
+        alert("giỏi đếy!");
     } else {
-        alert("Sai rồi!");
+        alert("Quá kém!");
     }
     
     currentQuestionIndex++;
@@ -130,7 +130,7 @@ function selectOption(option) {
     } else {
         // Tính điểm số theo thang 100
         const totalScore = Math.min(score, 100); // Đảm bảo không vượt quá 100
-        alert(`Vậy là độ hiểu biết của bạn về Toàn là: ${totalScore}/100`);
+        alert(`Vậy là m đạt được: ${totalScore}/100`);
     }
 }
 
