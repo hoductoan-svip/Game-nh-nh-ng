@@ -55,7 +55,7 @@ const questions = [
     {
         question: "Câu hỏi 2: Tao thích nuôi j  ?",
         options: ["mèo", "chó ", "ko biết"],
-        answer: "ko biết " 
+        answer: "ko biết" 
     },
     {
         question: "Câu hỏi 3: Tao có ghét nicu ko?",
@@ -94,7 +94,7 @@ const questions = [
     },
     {
         question: "Câu hỏi 10: m là ai ?",
-        options: ["đoán xem ", "bạn", "mẹ m "],
+        options: ["đoán xem", "bạn", "mẹ m "],
         answer: "đoán xem" 
     },
 ];
